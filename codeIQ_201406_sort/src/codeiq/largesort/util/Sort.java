@@ -18,11 +18,11 @@ import java.util.TreeMap;
 import java.util.TreeSet;
 
 public class Sort {
-    /**
-     * `sort -u`逶ｸ蠖薙�蜃ｦ逅�ｒ陦後≧繝｡繧ｽ繝�ラ縺ｧ縺�
+	/**
+     * `sort -u`相当の処理を行うメソッドです
      * 
-     * @param input 蜈･蜉帙ヵ繧｡繧､繝ｫ
-     * @param output 邨先棡繧呈嶌縺榊�縺吝�蜉帙ヵ繧｡繧､繝ｫ
+     * @param input 入力ファイル
+     * @param output 結果を書き出す出力ファイル
      * @throws IOException
      */
 	
