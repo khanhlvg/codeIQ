@@ -19,17 +19,17 @@ import java.util.TreeSet;
 
 public class Sort {
     /**
-     * `sort -u`相当の処理を行うメソッドです
+     * `sort -u`逶ｸ蠖薙�蜃ｦ逅�ｒ陦後≧繝｡繧ｽ繝�ラ縺ｧ縺�
      * 
-     * @param input 入力ファイル
-     * @param output 結果を書き出す出力ファイル
+     * @param input 蜈･蜉帙ヵ繧｡繧､繝ｫ
+     * @param output 邨先棡繧呈嶌縺榊�縺吝�蜉帙ヵ繧｡繧､繝ｫ
      * @throws IOException
      */
 	
 	// use only 80% of free memory for a chunk
 	// as we use UTF8 for encoding, each character will take 4 bytes.
-	//final long CHUNK_SIZE_LIMIT = (Runtime.getRuntime().freeMemory() / 4) * 8 / 10 ;
-	final long CHUNK_SIZE_LIMIT = 20 ;
+	final long CHUNK_SIZE_LIMIT = (Runtime.getRuntime().freeMemory() / 4) * 8 / 10 ;
+	//final long CHUNK_SIZE_LIMIT = 20 ;
 	final String TEMP_FILENAME_PATTERN = "sort_chunk";
 	final String ENCODING = "UTF-8";
 	
