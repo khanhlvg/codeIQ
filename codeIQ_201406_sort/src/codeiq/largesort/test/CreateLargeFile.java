@@ -13,8 +13,8 @@ import java.util.UUID;
 
 public class CreateLargeFile {
 
-	static final String INPUT_FILE = "D:\\readme.txt";
-	static final String OUTPUT_FILE = "D:\\random_large.txt";
+	static final String INPUT_FILE = "D:\\SelfProject\\git\\codeiq_raftel\\questions\\01\\readme.txt";
+	static final String OUTPUT_FILE = "D:\\SelfProject\\git\\codeiq_raftel\\questions\\01\\random_large.txt";
 	static final int LOOP_TIMES = 10000000;
 	
 	public static void duplicateFile() throws IOException{

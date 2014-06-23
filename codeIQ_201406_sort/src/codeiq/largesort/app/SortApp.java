@@ -6,11 +6,14 @@ import codeiq.largesort.util.Sort;
 
 public class SortApp {
 
-	static final String INPUT_FILE = "D:\\SelfProject\\CodeIQ\\test data set\\input.txt";
-	static final String OUTPUT_FILE = "D:\\SelfProject\\CodeIQ\\test data set\\output.txt";
+	static final String INPUT_FILE = "D:\\SelfProject\\git\\codeiq_raftel\\questions\\01\\input.txt";
+	static final String OUTPUT_FILE = "D:\\SelfProject\\git\\codeiq_raftel\\questions\\01\\output_1.txt";
 	
-	//static final String INPUT_FILE = "D:\\SelfProject\\CodeIQ\\test data set\\random_large.txt";
-	//static final String OUTPUT_FILE = "D:\\SelfProject\\CodeIQ\\test data set\\random_large.txt_sorted.txt";
+	//static final String INPUT_FILE = "D:\\SelfProject\\git\\codeiq_raftel\\questions\\01\\input-special.txt";
+	//static final String OUTPUT_FILE = "D:\\SelfProject\\git\\codeiq_raftel\\questions\\01\\output-special_1.txt";
+	
+	//static final String INPUT_FILE = "D:\\SelfProject\\git\\codeiq_raftel\\questions\\01\\random_large.txt";
+	//static final String OUTPUT_FILE = "D:\\SelfProject\\git\\codeiq_raftel\\questions\\01\\random_large_sorted.txt";
 		
 	public static void main(String[] args) {
 		
